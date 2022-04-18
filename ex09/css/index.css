@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#branding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 10px 16px;
+    font-size: 15px;
+    margin-left: -10px;
+    background-color: #333;
+    width: 100%;
+    border-bottom: 3px solid hsl(24, 87%, 43%);
+}
+
+#branding h1 {
+    margin-left: 20px;
+}
+
+.highlight {
+    color: hsl(24, 87%, 43%);
+}
+
+.current {
+    overflow: hidden;
+}
+
+.current a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.current a:hover {
+    color: hsl(24, 87%, 43%);
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/gigi-logo.png');
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    margin-left: -10px;
+
+    padding: 5px;
+    height: 50vh;
+}
+
+#showcase h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+#showcase p {
+    position: absolute;
+    text-align: center;
+    font-size: 1.1rem;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+#newsletter {
+    font-size: 13px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 5px;
+    margin-left: -10px;
+    background-color: #333;
+    width: 100%;
+}
+
+#newsletter h1 {
+    margin-left: 120px;
+}
+
+form {
+    display: flex;
+    margin-right: 100px;
+}
+
+form input {
+    width: 250px;
+}
+
+.button_1 {
+    background-color: hsl(24, 87%, 43%);
+    color: white;
+    padding: 0.7rem 1rem;
+    height: 2.2rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.box {
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float: left;
+    height: 100px;
+    width: 465px;
+}
+
+.box img {
+    width: 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(24, 87%, 43%);
+    text-align: center;
+    color: whitesmoke;
+}
